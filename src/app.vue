@@ -33,6 +33,8 @@
     </div>
     <preference-pane v-if="showPreferencePane"></preference-pane>
     <app-header v-if="!isDistractionFreeMode || (isDistractionFreeMode && !isFullScreen)"></app-header>
+    <app-category>170</app-category>
+    <app-browser>270</app-browser>
     <app-main></app-main>
     <app-footer v-if="showFooter()"></app-footer>
   </div>
@@ -44,6 +46,8 @@
   import appHeader from './components/header'
   import appMain from './components/main'
   import appFooter from './components/footer'
+  import appCategory from './components/category/category'
+  import appBrowser from './components/browser/browser'
   import preferencePane from './components/preference-pane'
   import {platform} from 'utils/os'
 
@@ -75,6 +79,8 @@
       appHeader,
       appMain,
       appFooter,
+      appCategory,
+      appBrowser,
       preferencePane
     },
     mounted() {
