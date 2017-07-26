@@ -3,7 +3,7 @@
 </style>
 
 <template lang="html">
-  <div class="category">
+  <div class="category-header">
 
   </div>
 </template>

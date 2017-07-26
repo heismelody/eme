@@ -1,5 +1,5 @@
 <template>
-  <span 
+  <span
     class="svg-icon"
     v-html="icon">
   </span>
@@ -12,6 +12,9 @@
   import arrowLeft from 'src/svg/arrow-left.svg'
   import arrowRight from 'src/svg/arrow-right.svg'
   import settings from 'src/svg/settings.svg'
+  import menuBook from 'src/svg/book.svg'
+  import menuPaper from 'src/svg/file-o.svg'
+  import menuTags from 'src/svg/tags.svg'
 
   const icons = {
     pencil,
@@ -19,7 +22,10 @@
     eye,
     arrowRight,
     arrowLeft,
-    settings
+    settings,
+    menuBook,
+    menuPaper,
+    menuTags,
   }
 
   export default {
