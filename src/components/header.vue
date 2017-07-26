@@ -1,6 +1,11 @@
 <style>
   $header-height: 36px;
   .header {
+    z-index: 100;
+    left: 440px;
+    position: fixed;
+    right: 0;
+
     font-size: 12px;
     display: flex;
     cursor: default;

@@ -5,21 +5,6 @@
     float: left;
     background-color: #f5f5f4;
   }
-
-  .browser-container li {
-    height: 90px;
-    border-bottom: 0.5px solid #e6e6e6;
-    text-align: center;
-    padding: 15px;
-    list-style: none;
-  }
-
-  .browser-container li:hover {
-    border-radius: 3px;
-    color: #fff;
-    background-color: #5391fc;
-    cursor: pointer;
-  }
 </style>
 
 <template lang="html">

@@ -8,7 +8,7 @@
     border-top: 1px solid;
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 440px;
     right: 0;
     -webkit-app-region: drag;
     > span {
