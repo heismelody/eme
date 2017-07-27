@@ -37,6 +37,7 @@
     }
   }
   .editor, .preview {
+    margin-top: 40px;
     min-width: 100px;
     height: 100%;
     overflow: auto;

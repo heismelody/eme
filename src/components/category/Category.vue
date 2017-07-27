@@ -42,9 +42,9 @@
 </template>
 
 <script>
-import categoryFooter from './categoryFooter';
-import categoryHeader from './categoryHeader';
-import categoryMenu from './categoryMenu';
+import categoryFooter from './category-footer';
+import categoryHeader from './category-header';
+import categoryMenu from './category-menu';
 
 export default {
   name: 'appCategory',
