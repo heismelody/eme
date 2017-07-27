@@ -15,6 +15,7 @@
   import menuBook from 'src/svg/book.svg'
   import menuPaper from 'src/svg/file-o.svg'
   import menuTags from 'src/svg/tags.svg'
+  import down from 'src/svg/caret-down.svg'
 
   const icons = {
     pencil,
@@ -26,6 +27,7 @@
     menuBook,
     menuPaper,
     menuTags,
+    down
   }
 
   export default {

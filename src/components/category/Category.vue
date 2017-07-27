@@ -3,6 +3,7 @@
     width: 170px;
     height: 100%;
     float: left;
+    color:  #cfcfcf;
   }
   .category-header,
   .category-footer {
